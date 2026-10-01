@@ -1,0 +1,1 @@
+openai>=1.0.0\nrequests>=2.31.0\n
