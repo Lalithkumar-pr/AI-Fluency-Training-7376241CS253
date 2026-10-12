@@ -1,0 +1,6 @@
+RUN LOG TEMPLATE — no live integration output has been captured in the ZIP-generation environment.
+
+After activating the virtual environment, capture genuine output with:
+python .\1_ingest.py 2>&1 | Tee-Object -FilePath .\run_log.txt
+python .\2_search.py 2>&1 | Tee-Object -FilePath .\run_log.txt -Append
+python .\task_agent.py 2>&1 | Tee-Object -FilePath .\run_log.txt -Append
