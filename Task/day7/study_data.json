@@ -1,0 +1,22 @@
+{
+  "subjects": {
+    "JAVA": {
+      "hours_completed": 6.5,
+      "hours_target": 10,
+      "next_deadline": "2026-10-15",
+      "task": "sorting practice"
+    },
+    "NETWORKS": {
+      "hours_completed": 4,
+      "hours_target": 7,
+      "next_deadline": "2026-10-17",
+      "task": "RIP and OSPF revision"
+    },
+    "SQL": {
+      "hours_completed": 8,
+      "hours_target": 8,
+      "next_deadline": "2026-10-20",
+      "task": "Level 4 practice"
+    }
+  }
+}
